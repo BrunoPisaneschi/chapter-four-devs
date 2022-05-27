@@ -34,7 +34,7 @@ class GeradorOnlinedeContaBancaria:
 
     def _select_state(self):
         self._show_list_state()
-        _state = input("\nSelecione o número do estado! Caso seja indiferente, aperte qualquer tecla.\n")
+        _state = input("\nSelecione a sigla do estado! Caso seja indiferente, aperte qualquer tecla.\n")
         if _state:
             _select_state = Select(self._driver.find_element(By.XPATH, '//select[@id="cc_estado"]'))
             _select_state.select_by_value(_state.upper())

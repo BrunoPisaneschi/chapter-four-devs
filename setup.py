@@ -10,7 +10,8 @@ setup(
         "python-decouple==3.6",
         "requests==2.27.1",
         "beautifulsoup4==4.11.1",
-        "lxml==4.8.0"
+        "lxml==4.8.0",
+        "unidecode==1.3.4"
     ],
     entry_points='''
         [console_scripts]

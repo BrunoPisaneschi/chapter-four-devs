@@ -27,4 +27,4 @@ class FourDevsRequests:
     @staticmethod
     def show_options(options):
         for _index, _key, in enumerate(options.keys()):
-            print(f"Número: {_index + 1} - Opção: {_key}")
+            print(f"Número: {_index} - Opção: {_key}")

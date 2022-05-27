@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="4devs",
     version='0.1',
-    packages=['four_devs', 'main'],
+    packages=['four_devs', 'four_devs.events', 'main'],
     install_requires=[
         'Click',
         "selenium==4.1.5",

@@ -23,7 +23,7 @@ def use_selenium(_option, option_events, _response):
 
 @click.command()
 @click.option('--options', '-O', is_flag=True, help='Retorna os opções de evento')
-@click.option("--option", '-o', type=int, default=None)
+@click.option("--option", '-o', type=int, default=None, help='Número da opção desejada')
 def start(options, option):
     option_events = None
     _continue = "S"
